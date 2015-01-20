@@ -17,7 +17,7 @@ var funspots = angular.module('funspots', ['ngRoute'])
     })
 
     //hotspots list page route
-    .when('/templates/list', {
+    .when('/list', {
       templateUrl : 'templates/list.html',
       controller : 'listCtrl'
     })
