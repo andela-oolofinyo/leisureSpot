@@ -14,7 +14,7 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: white;/*#2f3238;*/
+	background: white;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1em;
@@ -51,18 +51,4 @@ section {
 
 .content > h2:first-child {
 	padding-top: 0em;
-}
-
-
-/*-----------------*/
-/***** MEDIA QUERY *****/
-/*-----------------*/
-
-@media screen and (max-width: 25em) {
-	.codrops-header {
-		font-size: 75%;
-	}
-	.codrops-icon span {
-		display: none;
-	}
 }
