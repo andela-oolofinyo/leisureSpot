@@ -18,13 +18,13 @@ var funspots = angular.module('funspots', ['ngRoute'])
 
     //hotspots list page route
     .when('/templates/list', {
-      templateUrl : '/templates/list.html',
+      templateUrl : 'templates/list.html',
       controller : 'listCtrl'
     })
 
     //contactPage route
     .when('/templates/form', {
-      templateUrl : '/templates/form.html',
+      templateUrl : 'templates/form.html',
       controller : 'formCtrl'
     }).
 
