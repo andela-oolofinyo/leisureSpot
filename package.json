@@ -1,0 +1,15 @@
+{
+  "name": "funSpots",
+  "version": "1.0.0",
+  "description": "client side for the Leisure spot app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olucheye",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.3.9",
+    "angular-route": "^1.3.9"
+  }
+}
