@@ -6,13 +6,13 @@ var funspots = angular.module('funspots', ['ngRoute'])
 
     //indexpage route
     .when('/', {
-      templateUrl : 'leisureSpot/app/templates/home.html',
+      templateUrl : 'templates/home.html',
       controller : 'homeCtrl'
     })
 
     //homepage route
     .when('/templates/home', {
-      templateUrl : '/templates/home.html',
+      templateUrl : 'templates/home.html',
       controller : 'homeCtrl'
     })
 
