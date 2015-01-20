@@ -1,0 +1,106 @@
+<section id="formbody">
+  <nav class="navbar navbar-inverse" id="selfnav">
+    <div class="container-fluid" >
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#/templates/home">Leisure Spots</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#/templates/home">Home</a></li>
+          <li><a href="#/templates/list">Hotspots</a></li> 
+          <li class="active"><a href="#/templates/form">Create New Hotspot</a></li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="wrapper">
+    <h1>Create a New Fun Spot</h1>
+    
+    <form onsubmit="return false">
+      <div class="col-2">
+        <label>
+          Name
+          <input placeholder="Full FunSpot name" id="name" name="name" tabindex="1" ng-model="name" required>
+        </label>
+      </div>
+      <div class="col-2">
+        <label>
+          Address
+          <input placeholder="Street Address, City & State" id="company" tabindex="2" ng-model="address" required>
+        </label>
+      </div>
+      <div class="col-2">
+        <label>
+          Description
+          <input placeholder="Give a complete description of the spot" tabindex="3" ng-model="description" maxlength="110" required>
+        </label>
+      </div>
+      <div class="col-4">
+        <label>
+          Email
+          <input placeholder="e.g. olucheye@example.com" type="email" ng-model="email" tabindex="4" maxlength="20">
+        </label>
+      </div>
+      <div class="col-4">
+        <label>
+          Phone Number
+          <input placeholder="e.g. (+234)-803-493-2530" tabindex="5" ng-model="phone_number" maxlength="10"required>
+        </label>
+      </div> 
+      <div class="col-4">
+        <label>
+          Costs
+          <input placeholder="Minimum Cost" id="experience" name="experience" tabindex="6" ng-model="costs" maxlength="8" required>
+        </label>
+      </div>       
+      <div class="col-2">
+        <label>
+          <b>Image -:</b>
+          <span>Kindly click <a href="http://www.postimg.org" target="_blank">here</a> to upload your image. Copy and paste the subsequent "DIRECT LINK" in the space below</span>
+          <input type="text" placeholder="Paste Image Link Here" tabindex="7" ng-model="image">
+        </label>
+      </div>
+      <div class="col-4">
+        <label>
+          Website
+          <input placeholder="e.g. www.example.org" tabindex="8" ng-model="website" maxlength="20" required>
+        </label>
+      </div> 
+      <div class="col-4">
+        <label>
+          Rating
+          <input placeholder="Rating out of 5" id="email" tabindex="9" ng-model="rating" maxlength="1" required>
+        </label>
+      </div>
+      <div class="col-4">
+        <label>
+          Tags
+          <input placeholder="List a few popular tags" id="skills" tabindex="10" ng-model="tags" required>
+        </label>
+      </div>
+      <div class="col-4">
+        <label>
+          Menu
+          <input placeholder="Signature menu & drinks" tabindex="11" ng-model="menu" required>
+        </label>
+      </div>
+      <div class="col-4">
+        <label>
+          Working Hours
+          <input placeholder="e.g. 7am - 7pm" tabindex="12" ng-model="working_hours"  maxlength="9"required>
+        </label>
+      </div>
+      <div class="col-submit">
+        <input type="submit" value="CREATE" class="btn btn-success btn-block" ng-click="newSpot()">
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <a href=""><img src="img/email.png" alt="mail logo"></a>
+    <a href=""><img src="img/fb.png" alt="facebook logo"></a>
+    <a href=""><img src="img/tw.png" alt="twitter logo"></a>
+  </footer> 
+</section>
+  
