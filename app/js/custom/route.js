@@ -1,6 +1,6 @@
 var funspots = angular.module('funspots', ['ngRoute'])
   .config( ['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider){
-    $locationProvider.html5mode(true);
+    $locationProvider.html5Mode(true);
     $routeProvider
 
 
